@@ -74,7 +74,7 @@ st.title("🤖 Chat with the Laptop Assistant")
 user_input = st.text_input("You:", key="chat_input")
 
 # # Groq API Key
-GROQ_API_KEY = st.secrets.get("Enter Your API KEY") 
+GROQ_API_KEY = st.secrets.get("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") 
 
 if user_input:
     with st.spinner("Thinking..."):
